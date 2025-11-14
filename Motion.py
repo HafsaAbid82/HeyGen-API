@@ -8,7 +8,7 @@ payload = { "motion_type": "consistent",
 headers = {
     "accept": "application/json",
     "content-type": "application/json",
-    "x-api-key": "sk_V2_hgu_krGIQx04mA4_sdhZhRRAFPV3nLq5HVNx3uDWTS7swTNG"
+    "x-api-key": "<API KEY>"
 }
 
 response = requests.post(url, json=payload, headers=headers)
