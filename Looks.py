@@ -5,7 +5,7 @@ url = "https://api.heygen.com/v2/photo_avatar/look/generate"
 headers = {
     "accept": "application/json",
     "content-type": "application/json",
-    "x-api-key": "sk_V2_hgu_krGIQx04mA4_sdhZhRRAFPV3nLq5HVNx3uDWTS7swTNG"
+    "x-api-key": "<API KEY>"
 }
 payload = {  
      "group_id": "57775a7e02664fcda467a16fd8a9059e", 
