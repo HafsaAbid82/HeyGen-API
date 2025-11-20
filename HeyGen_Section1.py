@@ -4,7 +4,7 @@ Upload_Avatar_url = "https://upload.heygen.com/v1/asset"
 header = {
     "accept": "application/json",
     "Content-Type": "image/jpeg",
-    "X-API-KEY": "sk_V2_hgu_kVoJliPAd1a_1GdyDLm6D2NGefqwEuqejLfoMwdIBgjw"
+    "X-API-KEY":<API_Key>
 }
 with open("test.png", "rb") as img:
     data = img.read()
