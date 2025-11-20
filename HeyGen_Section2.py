@@ -8,7 +8,7 @@ payload = { "motion_type": "consistent",
 headers = {
     "accept": "application/json",
     "content-type": "application/json",
-    "x-api-key": "sk_V2_hgu_kVoJliPAd1a_1GdyDLm6D2NGefqwEuqejLfoMwdIBgjw"
+    "x-api-key": <API_Key>
 }
 Motion = requests.post(Motion_url, json=payload, headers=headers)
 response = Motion.json()
