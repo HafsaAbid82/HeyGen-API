@@ -3,7 +3,7 @@ import json
 Upload_Avatar_url = "https://upload.heygen.com/v1/asset"
 header = {
     "accept": "application/json",
-    "Content-Type": "image/jpeg",
+    "Content-Type": "image/png",
     "X-API-KEY":<API_Key>
 }
 with open("test.png", "rb") as img:
